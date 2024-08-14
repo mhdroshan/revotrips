@@ -1250,11 +1250,13 @@ form label.error{
   -o-transition:all 700ms ease 400ms;
   transition:all 700ms ease 400ms;
 }
-
+.main-nav-outer.now-visible .main-logo-box a img{
+  max-height: 70px;
+}
 .main-nav-outer .main-nav-box .main-nav{
   position:relative;
   display: block;
-  padding: 100px 30px 0;
+  padding: 20px 30px 0;
 }
 
 .main-nav-outer .main-nav-box .main-nav .navigation{
@@ -2591,7 +2593,7 @@ form label.error{
 }
 
 .main-footer .footer-logo img{
-  height: 45px;
+  height: 70px;
 }
 
 .main-footer .info{
