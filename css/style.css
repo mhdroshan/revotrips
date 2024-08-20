@@ -3194,6 +3194,9 @@ form label.error{
   font-family: 'Telegraf_Regular', sans-serif;
   margin-bottom: 0;
 }
+.portfolio-item-one a:hover{
+  color: #ffffff;
+}
 
 .portfolio-item-one h5 a{
   color: #ffffff;
