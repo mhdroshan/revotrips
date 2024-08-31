@@ -6391,3 +6391,28 @@ form label.error{
   animation: cursorAnim3 0.5s forwards;
   border: 1px solid #d8f744;
 }
+.floating-call{
+  height: 45px;
+  width: 140px;
+  border-radius: 80px;
+  background-color: #d8f744;
+  position: fixed;
+  top: 20px;
+  right: 20px;
+  box-shadow: 3px 2px 8px rgb(0 0 0 / 42%);
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  z-index: 2;
+  padding: 0 10px;
+  
+
+}
+.floating-call svg{
+  height: 30px;
+  fill: #3c3c3c;
+}
+.floating-call a{
+  color: #3c3c3c;
+  font-weight: 700;
+}
